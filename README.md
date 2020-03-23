@@ -9,3 +9,5 @@ The Architecture is a queue system where each class acts as an async singleton w
 Image Capture ---> Image Serializer --> Image Analyser --> TFX Server --> Image Analyser --> Object Storage
 
 The bottleneck beside the transfer to the server and the analysis is the image capture which is relatively slow. But this can definitly be improved.
+
+Displays boundingboxes around the objects. In this special case it displays boxes in the colors according to the nutriscore label of the grocery product it detected.
